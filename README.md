@@ -156,6 +156,7 @@ cat newfile | grep -i -c "hello"
 grep -R ubuntu /etc
 ## OUTPUT
 
+<img width="936" height="636" alt="image" src="https://github.com/user-attachments/assets/73ad09de-6e12-4abd-9aa2-bf48057a16c9" />
 
 
 grep -w -n world newfile   
@@ -987,7 +988,7 @@ $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
 
-![Uploading image.png…]()
+<img width="630" height="184" alt="image" src="https://github.com/user-attachments/assets/9e191e58-22f2-4a67-804d-93ed73cf9999" />
 
 
 cat forctype1.sh 
@@ -1002,6 +1003,9 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+
+<img width="593" height="356" alt="image" src="https://github.com/user-attachments/assets/f2c2ffb1-a4b4-41b3-be0c-2d6aea55c030" />
+
 
 cat fornested1.sh 
 ```bash
@@ -1021,6 +1025,8 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
+<img width="698" height="130" alt="image" src="https://github.com/user-attachments/assets/63738414-22dc-4f4d-8cfe-0da18e222b00" />
+
  
 cat forbreak.sh 
 ```bash
@@ -1034,13 +1040,18 @@ break
 fi
 echo "Iteration number: $var1"
 done
-echo "The for loop is completed“
+echo "The for loop is completed"
 ```
-## OUTPUT
+
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
+
+## OUTPUT
+
+<img width="662" height="179" alt="image" src="https://github.com/user-attachments/assets/5eb26e89-3fe7-4329-971e-ff407b0ee988" />
+
  
 cat forbreak.sh 
 ```bash
@@ -1054,7 +1065,7 @@ continue
 fi
 echo "Iteration number: $var1"
 done
-echo "The for loop is completed“
+echo "The for loop is completed"
 ```
 
  
@@ -1062,6 +1073,9 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+
+<img width="747" height="309" alt="image" src="https://github.com/user-attachments/assets/1c9407db-c575-45bc-b34d-934cf8168280" />
+
  
 cat exread.sh 
 ```bash
@@ -1077,21 +1091,24 @@ $ chmod 755 exread.sh
 $ ./exread.sh 
 ## OUTPUT
 
+<img width="735" height="105" alt="image" src="https://github.com/user-attachments/assets/4cad3089-f934-4bde-b859-2f8258d607af" />
+
 
  cat exread1.sh
 ```bash
 #!/bin/bash
 # testing the read command
 read -p "Enter your name: " name
-echo "Hello $name, welcome to my program. “
+echo "Hello $name, welcome to my program. "
 ``` 
 $ chmod 755 exread1.sh 
+$ ./exread1.sh 
 
 ## OUTPUT
 
+<img width="644" height="87" alt="image" src="https://github.com/user-attachments/assets/62442455-7669-474b-9fba-c6841b909efa" />
 
 
-$ ./exread1.sh 
  
 cat funcex.sh
 ```bash
@@ -1110,9 +1127,11 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
+<img width="701" height="73" alt="image" src="https://github.com/user-attachments/assets/4cb88f75-dedc-402f-9cd6-f25116121743" />
 
  
  ./funcex.sh 1 2
+<img width="697" height="140" alt="image" src="https://github.com/user-attachments/assets/a5c30537-bb26-4432-8164-12a9e5888ac8" />
 
  
 cat argshift.sh
@@ -1124,9 +1143,12 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
+$ ./argshift.sh 1 2 3
 
 ## OUTPUT
-$ ./argshift.sh 1 2 3
+
+<img width="601" height="132" alt="image" src="https://github.com/user-attachments/assets/419539a6-dc53-4c75-bd74-20873abaa4e9" />
+
  
  cat argshift1.sh
 ```bash
@@ -1144,6 +1166,9 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+
+<img width="765" height="400" alt="image" src="https://github.com/user-attachments/assets/665570b9-74cc-4840-b79a-d63e1934dea6" />
+
  
 cat argshift.sh
 ```bash
@@ -1157,7 +1182,9 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+
+ <img width="764" height="373" alt="image" src="https://github.com/user-attachments/assets/419d7bc7-623c-4a86-8dca-fbb86342dc5d" />
+
  
 cat > nc.awk
 ```bash
@@ -1188,6 +1215,9 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+
+<img width="671" height="131" alt="image" src="https://github.com/user-attachments/assets/fc40d8a6-049d-4154-a47e-4e22fe8fc8f2" />
+
  
 cat > palindrome.sh
 ```bash
@@ -1215,6 +1245,8 @@ else
 fi
 ```
 ## OUTPUT 
+
+![Uploading image.png…]()
 
 
 # RESULT:
