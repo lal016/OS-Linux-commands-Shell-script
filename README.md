@@ -1246,7 +1246,8 @@ fi
 ```
 ## OUTPUT 
 
-![Uploading image.png…]()
+<img width="671" height="131" alt="image" src="https://github.com/user-attachments/assets/f8a78c3a-8501-4a93-94db-c650a8e727f7" />
+
 
 
 # RESULT:
